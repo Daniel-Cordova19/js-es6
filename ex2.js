@@ -7,9 +7,10 @@ let puedesPasar = true;
 edad = 17;
 
 if (edad < 18) {
-    let puedesPasar = false;
+puedesPasar = false;
 }
 
 console.log(puedesPasar) // false
 
 // PREGUNTA: ¿Por qué no se actualiza correctamente la variable 'puedesPasar'?
+// porque la funsión ya estaba creada y no era necesario usar el let para actualizarla. 
